@@ -1,0 +1,320 @@
+.top-nav{
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  color: #999484;
+
+  .navbar{
+    width: 33.33%;
+    background-color: white !important;
+    
+  }
+
+  &_middle{
+    width: 33.33%;
+    margin-top: 17px;
+  }
+
+  &_right{
+    width: 33.33%;
+    display: flex;
+    margin-top: 17px;
+
+    &_arrow{
+      display: flex;
+    }
+
+    .span{
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+
+    .span-img{
+      margin-left: 22px;
+    }
+
+    .down-arrow{
+      position: absolute;
+      top: 7%;
+      height: 21%;
+      width: 1.5%;
+    }
+
+    .lang{
+      margin-left: 6px;
+    }
+  }
+}
+
+.horizontal-line{
+  margin-top: 0px;
+}
+
+.nav-middle{
+  display: flex;
+
+  &_img{
+    width: 20%;
+
+    &_logo{
+      height: 61px;
+      width: 150px;
+    }
+  }
+
+  &_searchBar{
+    width: 35%;
+    display: flex;
+    border: 1px solid #25BE8B;
+    border-radius: 4px;
+
+    &_category{
+      width: 45%;
+      display: flex;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 16px;
+      margin-left: 25px;
+
+      &_title{
+        color: #999484;
+      }
+
+      .vl {
+        border-left: 2px solid #999484;
+        height: 25px;
+        margin-left: 20px;
+      }
+
+      &_downArrow{
+        height: 25px;
+        width: 23px;
+        margin-left: 10px;
+      }
+  }
+
+    &_search{
+      width: 70%;
+
+      .search-box{
+        width: 100%;
+        position: relative;
+        display: flex;
+      
+      }
+      .search-input{
+        width: 100%;
+        padding: 10px;
+        border: 0px solid white;
+        border-radius:10px 0 0 10px ;
+        border-right: none;
+        outline: none;
+        font-size: 20px;
+        color: #999484;
+        background: none;
+      }
+      .search-button{
+       text-align: center;
+       height: 51px;
+       width: 40px;
+       outline: none;
+       cursor: pointer;
+       border: 0px solid white;
+       border-radius: 0 10px 10px 0 ;
+       background: none;
+       font-size: 20px;
+       margin-right: 20px;
+       border-left: 0px solid white;
+
+       .fa-search{
+        color: #999484;
+       }
+      }
+    }
+  }
+
+  &_catalog{
+    width: 30%;
+    display: flex;
+    gap: 60px;
+    margin-left:62px;
+    margin-top: 20px;
+    color: #485c56;
+    cursor: pointer;
+
+    &_compare{
+      display: flex;
+
+      .wishlist-logo{
+        height: 17px;
+        width: 20px;
+      }
+    }
+
+    &_wishlist{
+      display: flex;
+
+      .wishlist-logo{
+        height: 17px;
+        width: 20px;
+      }
+    }
+
+    &_cart{
+      display: flex;
+
+      .wishlist-logo{
+        height: 17px;
+        width: 20px;
+      }
+    }
+
+    &_login{
+      display: flex;
+
+      .wishlist-logo{
+        height: 17px;
+        width: 20px;
+      }
+    }
+  }
+}
+
+.main-nav{
+  display: flex;
+
+  &-browse{
+    width: 20%;
+
+    &-btn{
+      height: 50px;
+      width: 225px;
+      border-radius: 5px;
+      background-color: #25BE8B;
+      border: 1px solid white;
+      display: flex;
+
+      &-img{
+        height: 29px;
+        width: 31px;
+        margin-left: 10px;
+        margin-top: 10px;
+      }
+
+      &-txt{
+        color: white;   
+         margin-left: 5px;
+         margin-top: 10px;   
+      }
+
+      &-arrow{
+        height: 29px;
+        width: 24px;
+        margin-top: 7px;
+        color: white !important;
+      }
+    }
+  }
+
+  &-pages{
+    display: flex;
+    width: 60%;
+    color: #485c56;
+    gap: 14px;
+    margin-top: 10px;
+
+    &-deals{
+      display: flex;
+
+      &-img{
+        height: 20px;
+        width: 20px;
+      }
+
+      &-txt{
+        color: #485c56;
+      }
+    }
+
+    &-home{
+      display: flex;
+
+      &-img{
+        height: 20px;
+        width: 20px;
+      }
+
+    }
+
+    &-about{
+      display: flex;
+    }
+
+    &-shop{
+      display: flex;
+
+      &-img{
+        height: 20px;
+        width: 20px;
+      }
+    }
+
+    &-vendors{
+      display: flex;
+    }
+
+    &-megaMenu{
+      display: flex;
+
+      &-img{
+        height: 20px;
+        width: 20px;
+      }
+    }
+
+    &-blog{
+      display: flex;
+
+      &-img{
+        height: 20px;
+        width: 20px;
+      }
+    }
+
+    &-pages{
+      display: flex;
+
+      &-img{
+        height: 20px;
+        width: 20px;
+      }
+    }
+
+    &-contact{
+      display: flex;
+    }
+  }
+
+  &-phone{
+    width: 20%;
+    display: flex;
+    padding-left: 37px;
+
+    &-img{
+      height: 40px;
+      width: 40px;
+    }
+
+    &-txt{
+      display: flex;
+      flex-direction: column;
+
+      &-number{
+        color: #25BE8B;
+        font-weight: bold;
+        font-size: 25px;
+      }
+    }
+  }
+}
+

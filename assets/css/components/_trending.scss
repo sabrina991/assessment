@@ -1,0 +1,72 @@
+.trending{
+  display: flex;
+  margin-top: 60px;
+
+  &-top-selling{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+    .trending-cards{
+      display: flex;
+      width: 100%;
+
+      &-desc{
+        margin-left: 20px;
+        .card-body{
+          .addCart{
+            display: flex;
+
+            .dollar{
+              margin-right: 35px;
+            }
+          }
+          .card-text{
+            font-size: 15px;
+          }
+        }
+      }
+
+      &-img{
+        img{
+          height: 221px;
+          width: 269px;
+        }
+      }
+    }
+  }
+
+  &-products{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+    .trending-cards{
+      display: flex;
+      width: 100%;
+
+      &-desc{
+        margin-left: 20px;
+        .card-body{
+          .addCart{
+            display: flex;
+
+            .dollar{
+              margin-right: 35px;
+            }
+          }
+          .card-text{
+            font-size: 15px;
+          }
+        }
+      }
+
+      &-img{
+        img{
+          height: 221px;
+          width: 269px;
+        }
+      }
+    }
+  }
+}
